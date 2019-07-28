@@ -1,0 +1,27 @@
+<template>
+  <view>
+    <yz-collapse title="标题1">
+      内容
+    </yz-collapse>
+    <yz-collapse></yz-collapse>
+  </view>
+</template>
+
+<script>
+import { createPage } from "@mpxjs/core";
+
+createPage({
+  data:{
+  
+  },
+  onLoad() {}
+});
+</script>
+
+<script type="application/json">
+  {
+    "usingComponents": {
+      "yz-collapse": "../components/Collapse/Collapse"
+    }
+  }
+</script>
